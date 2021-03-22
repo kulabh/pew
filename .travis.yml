@@ -1,5 +1,8 @@
 matrix:
   fast_finish: true
+  arch:
+  - amd64
+  - arm64 
   include:
     - language: python
       sudo: false
